@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: inset 0px -1px 0px 0px #121212;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #121212;
+    font-family: 'Glory';
+    font-size: 18px;
+    padding: 5px 0px;
+    transition: all 0.3s;
+}
+
+nav ul a:hover {
+    box-shadow: inset 0px -2px 0px 0px #c3b091;
+}
+
+nav img {
+    margin: 0;
+    height: 25px; 
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 60px 0px;
+    justify-content: center;
+    gap: 60px;
+    background: #EBE8E8;
+    font-family: 'glory';
+}
+
+footer .information .item,
+footer .services .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .socialMedia .item {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer .newsletter .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .information h2,
+footer .services h2,
+footer .socialMedia h2,
+footer .newsletter h2 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+footer .information .item a,
+footer .services .item p {
+    margin: 0;
+    text-decoration: none;
+    color: #121212;
+}
+
+footer .services .item p a {
+    text-decoration: none;
+    color: #121212;
+}
+
+footer .newsletter .item p {
+    margin: 0;
+}
+
+footer .newsletter .item div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer .newsletter .item div input {
+    font-family: 'glory';
+    border: 1px solid #585858;
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer .newsletter .item div input:focus {
+    outline: none;
+}
+
+footer .newsletter .item div button {
+    font-family: 'glory';
+    background: #121212;
+    color: #ebe8e8;
+    border: none;
+    width: 120px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+footer .newsletter .item div button:hover {
+    background: #000;
+}

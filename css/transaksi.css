@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+body {
+  font-family: 'Mukta', sans-serif;
+}
+
+/* Box Title */
+.box-title {
+    background-color: #F2EFEF;
+    color: black;
+    padding: 10px;
+}
+
+.box-title p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#box {
+    padding: 20px;
+}
+
+  
+  #box h1 {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .news {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .news th {
+    background-color: #D8C2B7;
+    color: black;
+    padding: 10px;
+
+  }
+  
+  .news td {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+
+  }
+  
+  .news td:first-child {
+    font-weight: bold;
+    color: #888888;
+  }
+  
+  .tombol-biru {
+    display: inline-block;
+    background-color: #D8C2B7;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+
+  }
+
+  .tombol-biru-s {
+    display: inline-block;
+    background-color: #EBE8E8;
+    color: black;
+    padding: 10px 17px;
+    border: #888888;
+    text-decoration: none;
+    margin-right: 10px;
+
+  }
+  
+  .tombol-biru:hover {
+    background-color: #EBE8E8;
+    color: black;
+  }
+  

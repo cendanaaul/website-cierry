@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box-title {
+    background-color: #F2EFEF;
+    color: black;
+    padding: 10px;
+}
+
+.box-title p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#box {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.news {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.news th,
+.news td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.news th {
+    font-weight: bold;
+    background-color: #A1B6C6;
+    color: black;
+}
+
+.news td:first-child {
+    font-weight: bold;
+    width: 50px;
+}
+
+.tombol-biru {
+    display: inline-block;
+    padding: 5px 14px;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.tombol-merah {
+    display: inline-block;
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.tombol-biru {
+    background-color: #A1B6C6;
+    color: black;
+}
+
+.tombol-merah {
+    background-color: #CFACAC;
+    color: black;
+}
+
+.tombol-biru:hover,
+.tombol-merah:hover {
+    background-color: #EBE8E8;
+    color: black;
+}

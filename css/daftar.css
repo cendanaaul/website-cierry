@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;  
+  font-family: 'glory';
+  background-image: url("../img/bg-banner.jpg");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container .login {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 0px 1px #121212;
+  border-radius: 7px;
+  background: #F2EFEF;
+}
+
+.container .login h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.container .login form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 10px;
+}
+
+.container .login form input:nth-child(1),
+.container .login form input:nth-child(2),
+.container .login form input:nth-child(3),
+.container .login form input:nth-child(4),
+.container .login form input:nth-child(5),
+.container .login form input:nth-child(6) {
+  padding: 6px;
+  background: #F2EFEF;
+  border: none;
+  border-bottom: 1px solid #CEC6C2;
+  font-family: 'glory';
+  font-size: 16px;
+}
+
+.container .login form input:nth-child(1):focus,
+.container .login form input:nth-child(2):focus,
+.container .login form input:nth-child(3):focus,
+.container .login form input:nth-child(4):focus,
+.container .login form input:nth-child(5):focus,
+.container .login form input:nth-child(6):focus {
+  outline: none;
+}
+
+.container .login form input:nth-child(7) {
+  padding: 8px;
+  background: #A1B6C6;
+  border: none;
+  font-family: 'glory';
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container .login form a {
+  text-align: center;
+  text-decoration: none;
+  color: #121212;
+  padding: 7px;
+}
+
+.container .login form p {
+  margin: 0;
+  text-align:center;
+  padding-top: 20px;
+}
+
+.container .login form p a {
+  padding: 0;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box-title {
+    background-color: #F2EFEF;
+    color: black;
+    padding: 10px;
+}
+
+.box-title p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#box {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.success-message img {
+    width: 60px;
+}
+
+.success-message b {
+    font-weight: bold;
+}
+
+.error-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-message img {
+    width: 60px;
+}
+
+.error-message a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.error-message a:hover {
+    text-decoration: underline;
+}

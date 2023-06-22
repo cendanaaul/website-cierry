@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+.container {
+    height: 80vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.container .content {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.container .content img {
+    width: 500px;
+}
+
+.container .content .contactContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container .content .contactContent a {
+    text-decoration: none;
+    color: #121212;
+}
+
+.container .content .contactContent div {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    width: 300px;
+    border-radius: 10px;
+    gap: 50px;
+    box-shadow: inset 0px 0px 0px 1px #121212;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.container .content .contactContent div:hover {
+    transform: translate(20px, 0px);
+    box-shadow: inset 0px 0px 0px 1px #121212,
+                -20px 0px 0px 0px #121212;
+}
+
+.container .content .contactContent div img {
+    width: 25px;
+}

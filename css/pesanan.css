@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+.container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container .box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: inset 0px 0px 0px 1px #121212;
+  border-radius: 10px;
+}
+
+.container .box .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  box-shadow: inset 0px -1px 0px 0px #121212;
+}
+
+.container .box .header h1 {
+  margin: 0;
+}
+
+.container .box .status {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.container .box .status p {
+  margin: 0;
+}
+
+.container .box .status .statusLabel {
+  padding: 5px 15px;
+  background: #42ba96;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.container .box .paymentAmount {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px 20px 0px;
+  box-shadow: inset 0px -1px 0px 0px #121212;
+}
+
+.container .box .paymentAmount p {
+  margin: 0;
+}
+
+.container .box .description {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: inset 0px -1px 0px 0px #121212;
+}
+
+.container .box .description h3 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.container .box .description .descriptionText {
+  display:flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container .box .description .descriptionText p {
+  margin: 0;
+}
+
+.container .box .description .descriptionText div {
+  display: flex;
+}
+
+.container .box .description .descriptionText div p:first-child {
+  width: 120px;
+}
+
+.container .box .continue {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: inset 0px -1px 0px 0px #121212;
+}
+
+.container .box .continue h3 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.container .box .continue .continueText {
+  display:flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container .box .continue .continueText p {
+  margin: 0;
+}
+
+.container .box .continue .continueText div {
+  display: flex;
+}
+
+.container .box .continue .continueText div p:first-child {
+  width: 120px;
+}
+
+.container .box .thankyou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.container .box .thankyou p {
+  margin: 0;
+}
+
+.container .box .thankyou div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.container .box .thankyou div button {
+  padding: 10px 20px;
+  background: #42ba96;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: 'glory';
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.container .box .thankyou div button:hover {
+  background: #2E8269;
+}
+
+.container .box .thankyou div a {
+  padding: 10px 0px;
+  text-decoration: none;
+  color: #121212;
+}

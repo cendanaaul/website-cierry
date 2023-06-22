@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box-title {
+    background-color: #F2EFEF;
+    color: black;
+    padding: 10px;
+}
+
+.box-title p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#box {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td {
+    padding: 8px;
+}
+
+.table-bordered td {
+    border: 1px solid #ddd;
+}
+
+.table-striped td:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tombol-biru {
+    background-color: #A1B6C6;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tombol-merah {
+    background-color: #CFACAC;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0px;
+    width: 105px;
+    text-decoration: none;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus {
+    outline: none;
+    border-color: #A1B6C6;
+}
+
+input[type="submit"] {
+    background-color: #A1B6C6;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #EBE8E8;
+}

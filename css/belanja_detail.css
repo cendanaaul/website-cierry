@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+#box {
+  padding: 30px;
+}
+
+#box h1 {
+  margin: 0;
+}
+
+#box form {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+#box form table {
+  padding-left: 20px;
+  box-shadow: inset 1px 0px 0px 0px #121212;
+}
+
+#box form table tr td {
+  height: 30px;
+}
+
+#box form table tr td:first-child {
+  width: 150px;
+}
+
+#box form table tr td:nth-child(2) {
+  width: 300px;
+}
+
+#box form table tr:nth-child(4) td:nth-child(2) select,
+#box form table tr:nth-child(6) td:nth-child(2) select {
+  border: none;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid #121212;
+  font-family: 'glory';
+}
+
+#box form table tr:nth-child(4) td:nth-child(2) select:focus,
+#box form table tr:nth-child(6) td:nth-child(2) select:focus {
+  outline: none;
+}
+
+#box form table tr:nth-child(5) td:nth-child(2) input {
+  border: none;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  border-bottom: 1px solid #121212;
+  font-family: 'glory';
+  text-indent: 5px;
+}
+
+#box form table tr:nth-child(5) td:nth-child(2) input:focus {
+  outline: none;
+}
+
+#box form table tr:nth-child(7) td:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px; 
+}
+
+#box form table tr:nth-child(7) td:nth-child(2) input {
+  padding: 7px 22px;
+  border: none;
+  color: #fff;
+  background: #121212;
+  border-radius: 25px;
+  font-family: 'glory';
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#box form table tr:nth-child(7) td:nth-child(2) a {
+  text-decoration: none;
+  color: #121212;
+  padding: 7px;
+}
