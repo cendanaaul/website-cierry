@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Puritan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway&display=swap');
+
+.container h1 {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.container .about {
+    padding: 60px 0px 0px 0px;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    gap: 150px;
+}
+
+.container .about .text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container .about .text h3, 
+.container .about .text p {
+    margin: 0;
+}
+
+.container .img {
+    border-radius: 0px 61px 0px 0px;
+    margin-top: 120px;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.container .img .item:nth-child(1) {
+    background-image: url('../img/14.jpeg');
+    background-size: cover;
+    width: 100%;
+}
+.container .img .item:nth-child(2) {
+    background-image: url('../img/19.jpeg');
+    background-size: cover;
+    width: 100%;
+}
+.container .img .item:nth-child(3) {
+    background-image: url('../img/22.jpeg');
+    background-size: cover;
+    width: 100%;
+}
+.container .img .item:nth-child(4) {
+    background-image: url('../img/20.jpeg');
+    background-size: cover;
+    width: 100%;
+}
